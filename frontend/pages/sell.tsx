@@ -97,7 +97,7 @@ export default function Sell() {
                                             {product.image_url && (
                                                 <img src={product.image_url} alt={product.name} className="w-16 h-16 object-cover rounded mb-1" />
                                             )}
-                                            <p className="text-xs font-bold truncate w-full">{product.name}</p>
+                                            <p className="text-xs font-bold truncate w-full text-gray-900">{product.name}</p>
                                             <p className="text-xs text-gray-500">{product.price} {product.currency}</p>
                                         </div>
                                     ))}
@@ -111,7 +111,7 @@ export default function Sell() {
                                 type="number"
                                 value={amount}
                                 onChange={(e) => setAmount(e.target.value)}
-                                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-lg p-2 border"
+                                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-lg p-2 border text-gray-900"
                                 placeholder="0.00"
                             />
                         </div>
@@ -121,7 +121,7 @@ export default function Sell() {
                                 type="text"
                                 value={reference}
                                 onChange={(e) => setReference(e.target.value)}
-                                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-lg p-2 border"
+                                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-lg p-2 border text-gray-900"
                                 placeholder="e.g. PS5 Console"
                             />
                         </div>
