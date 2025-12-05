@@ -1,0 +1,2 @@
+export const FB_CATALOG_ID = "1085879793546303";
+export const FB_ACCESS_TOKEN = "EAAcbxvqDVWEBQB5ufvah9jj04efns9AbrUdsf8p8ZAE51wuQzVpbuwtwDfj8ablcBAkXbhxbiKyuiyvTtkS5r3WTFTRCab2hMliJSHO1JTeXmrT3ANdQwMWzFHueIz5fZB62TDqmHziYnhXZBY09luO8AZBYZAlQZAkaorDVkitpJYK13IwuUrg4xiUmbQrAZDZD";
